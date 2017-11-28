@@ -1,0 +1,16 @@
+POST /fcm/send HTTP/1.1
+Host: fcm.googleapis.com
+Content-Type: application/json
+Authorization: key=AAAAYDyufcQ:APA91bHbCMxirCej0dnjvOTTOMdFjgcdq81iwuMYODW8C_-SiLRULJgLIJvdt8daCgXfu_Ww86sJNYEcJxV5lTYTlmvvHECpUItGBn6ARykOE9jfxg7HPwizzLUoKY1x45znAofBhkSB
+Cache-Control: no-cache
+Postman-Token: 09332a91-0341-8bd1-793c-890dea69db4c
+
+ {
+   "notification": {
+     "title": "WOW",
+     "body": "So much wow!",
+     "icon": "doge-600.png",
+     "click_action": "https://wowjs.uk/"
+   },
+   "to": "cLRsMCqfrnE:APA91bHC-0BERVFjnt_U5sQDkvsZAZI_UjWtIZHzqThx9ahIVa9N6SH5BO1gOb-zHmP_SiEdl4dC5n_8m3WODdE0c1F80Yk8jEncwTtHrWG-u3OZ0IcM_IxEg7IJzUiz4k-XA9Kx2sbt"
+ }
