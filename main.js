@@ -21,7 +21,7 @@ navigator.serviceWorker.register('./sw.js')
       return messaging.getToken();
   })
   .then(function (token) {
-      console.log(token)
+      document.getElementById("token").innerHTML = "Seu token: " + token;
   })
   .catch(function (err) {
       console.log('Unable to get permission to notify.', err);
